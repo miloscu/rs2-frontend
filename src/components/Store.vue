@@ -29,7 +29,7 @@
       </button>
     </form>
 
-    <table class="table" style="display: inline">
+    <table class="table">
       <tr>
         <th>Name</th>
         <th>Type</th>
@@ -46,7 +46,7 @@
         <td>{{ product.description }}</td>
       </tr>
     </table>
-    <table class="table" style="display: inline">
+    <table class="table">
       <tr>
         <th></th>
         <th>Wishlist</th>
@@ -71,7 +71,7 @@ export default {
       qty: 1,
       searchQuery: {
         name: "",
-        type: null,
+        type: "none",
       },
       products: [
         {
