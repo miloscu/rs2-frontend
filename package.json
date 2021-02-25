@@ -1,6 +1,6 @@
 {
   "name": "rs2-frontend",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Frontend for the rs2 test project",
   "author": "miloscu <miloscu@hotmail.com>",
   "private": true,
